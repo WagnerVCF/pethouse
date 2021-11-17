@@ -47,7 +47,7 @@ namespace pethouse
             if (usuario.HasRows)
             {
                 this.Hide();
-                FormFuncionario pri = new FormFuncionario();
+                Principal pri = new Principal();
                 pri.Show();
                 conn.Close();
             }
@@ -64,6 +64,11 @@ namespace pethouse
         private void btnSair_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

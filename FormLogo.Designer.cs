@@ -47,12 +47,12 @@
             // 
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroLabel1.Location = new System.Drawing.Point(181, 37);
+            this.metroLabel1.ForeColor = System.Drawing.Color.Black;
+            this.metroLabel1.Location = new System.Drawing.Point(165, 38);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(183, 25);
+            this.metroLabel1.Size = new System.Drawing.Size(190, 25);
             this.metroLabel1.TabIndex = 2;
-            this.metroLabel1.Text = "Bem vindo a PetHouse";
+            this.metroLabel1.Text = "Bem-Vindo A PetHouse";
             this.metroLabel1.Theme = MetroFramework.MetroThemeStyle.Light;
             // 
             // FormLogo

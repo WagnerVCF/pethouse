@@ -107,6 +107,7 @@
       <DependentUpon>FormServico.cs</DependentUpon>
     </Compile>
     <Compile Include="Pethouse.cs" />
+    <Compile Include="Petserv.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormCliente.resx">

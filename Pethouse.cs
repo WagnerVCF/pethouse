@@ -93,7 +93,7 @@ namespace pethouse
             con.Close();
         }
 
-        public void AtualizarFunc(int id, string nome, string login, string senha, string celular, string dataadmissao, string genero)
+        public void EditarFunc(int id, string nome, string login, string senha, string celular, string dataadmissao, string genero)
         {
             string sql = "UPDATE Funcionario SET nome='" + nome + "',login='" + login + "',senha='" + senha + "',celular='" + celular + "',dataadmissao='" + dataadmissao + "',genero='" + genero + "' WHERE Id='" + id + "'";
             con.Open();

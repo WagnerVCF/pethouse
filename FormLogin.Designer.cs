@@ -152,7 +152,7 @@
             this.Controls.Add(this.mtbLogin);
             this.Name = "FormLogin";
             this.Text = "Painel de Login";
-            this.Load += new System.EventHandler(this.btnLogin_Click);
+            this.Load += new System.EventHandler(this.FormLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

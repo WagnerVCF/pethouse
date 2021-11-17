@@ -29,21 +29,11 @@ namespace pethouse
             }
         }
 
-        private void funcionariosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void funcionariosToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             var func = new FormFuncionario();
             func.MdiParent = this.MdiParent;
             func.Show();
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
         }
 
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -55,14 +45,14 @@ namespace pethouse
 
         private void serviçosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var cli = new FormServico();
+            var cli = new petserv.FormServico();
             cli.MdiParent = this.MdiParent;
             cli.Show();
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
     }
 }

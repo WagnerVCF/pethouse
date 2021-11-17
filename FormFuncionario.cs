@@ -44,7 +44,7 @@ namespace pethouse
 
         private void btnSair_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void btnInserir_Click(object sender, EventArgs e)
@@ -120,21 +120,14 @@ namespace pethouse
             {
                 DataGridViewRow row = this.MgUsuario.Rows[e.RowIndex];
                 mtbId.Text = row.Cells[0].Value.ToString();
-                mtbLogin.Text = row.Cells[1].Value.ToString();
-                mtbSenha.Text = row.Cells[2].Value.ToString();
-                mtbCelular.Text = row.Cells[3].Value.ToString();
-                mtbDataAdm.Text = row.Cells[4].Value.ToString();
-                mtbGenero.Text = row.Cells[5].Value.ToString();
-                mtbGenero.Text = row.Cells[6].Value.ToString();
+                mtbNome.Text = row.Cells[1].Value.ToString();
+                mtbLogin.Text = row.Cells[2].Value.ToString();
+                mtbSenha.Text = row.Cells[3].Value.ToString();
+                mtbCelular.Text = row.Cells[4].Value.ToString();
             }
         }
 
         private void MgUsuario_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void mtbDataAdm_Click(object sender, EventArgs e)
         {
 
         }
